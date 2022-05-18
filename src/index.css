@@ -1,0 +1,30 @@
+:root{
+    --bg-color: #fff;
+    --text-color: #252A4B;
+    --sub-color: #696C80;
+    --btn-color: #C2004E;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+html{
+    font-family: 'Helvetica 35 Thin', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
