@@ -1,191 +1,282 @@
-.pointer{
-    cursor: pointer;
+.pointer {
+	cursor: pointer;
 }
-.fs-12{
-    font-size: 12px;
+.fs-14 {
+	font-size: 14px;
 }
-.space-40{
-    margin-bottom: 40px;
+.fs-12 {
+	font-size: 12px;
 }
-.space-80{
-    margin-bottom: 80px;
+.fs-10 {
+	font-size: 10px;
 }
-.color-btn{
-    color: var(--btn-color) !important;
+.space-40 {
+	margin-bottom: 40px;
 }
-.text-align-justify{
-    text-align: justify;
+.space-80 {
+	margin-bottom: 80px;
+}
+.color-btn {
+	color: var(--btn-color) !important;
+}
+.text-align-justify {
+	text-align: justify;
+}
+.warning {
+	width: 100%;
+	margin-top: 0.25rem;
+	font-size: 0.875em;
+	color: var(--color-warning);
+}
+.invalid {
+	border-color: var(--color-warning);
+}
+.btn-delete {
+	font-size: 10px;
+	padding: 4px 6px;
 }
 
 /* Header */
-header{
-    display: flex; 
-    height: 72px;
-    align-items: center;
-    background-color: var(--bg-color);
-    position: sticky;
-    top: 0;
-    z-index: 1;
+header {
+	display: flex;
+	height: 72px;
+	align-items: center;
+	background-color: var(--bg-color);
+	position: sticky;
+	top: 0;
+	z-index: 1;
 }
-.nav{
-    margin-left: 50px;
+.nav {
+	margin-left: 50px;
 }
-.link{
-    padding: 10px;
-    color: var(--text-color);
-    text-decoration: none;
-    cursor: pointer;
+.link {
+	padding: 10px;
+	color: var(--text-color);
+	text-decoration: none;
+	cursor: pointer;
 }
-.link.active{
-    color: var(--btn-color);
+.link.active {
+	color: var(--btn-color);
 }
-.buyer{
-    margin-left: auto;
-    font-weight: 500;
+.buyer {
+	margin-left: auto;
+	font-weight: 500;
 }
 
 /* Main */
-.intro{
-    background: url('http://demo.tutsflow.com/foodera/images/bg/3.jpg') no-repeat center;
-    background-size: cover;
-    padding: 100px 0 150px;
-    position: relative;
+.intro {
+	background: url('http://demo.tutsflow.com/foodera/images/bg/3.jpg') no-repeat center;
+	background-size: cover;
+	padding: 150px 0;
+	position: relative;
 }
-.intro h3{
-    font-size: 48px;
+.intro h3 {
+	font-size: 48px;
 }
-.btn-order{
-    min-width: 140px;
-    height: 40px;
-    border-radius: 20px;
-    background: var(--btn-color);
-    color: #fff;
-    margin-right: 20px;
+.btn-order {
+	min-width: 140px;
+	height: 40px;
+	border-radius: 20px;
+	background: var(--btn-color);
+	color: #fff;
+	margin-right: 20px;
 }
-.btn-circle{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #fff;
-}
-
-.services{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.service{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-.service i{
-    font-size: 26px;
-}
-.service span{
-    font-size: 12px;
+.btn-circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff;
 }
 
-section .title{
-    text-align: center;
-    margin-bottom: 40px;
+.services {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
-.ration .content{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+.service {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
 }
-.tabs{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.service i {
+	font-size: 26px;
 }
-.tab-item{
-    padding: 8px;
-    border-radius: 20px;
-    min-width: 100px;
-    text-align: center;
-    font-weight: 500;
-}
-.tab-item.active{
-    background: var(--btn-color);
-    color: #fff;
-}
-.card-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.service span {
+	font-size: 12px;
 }
 
-.feedback{
-    background: url('http://demo.tutsflow.com/foodera/images/parallax/1.jpg') no-repeat center;
-    background-size: cover;
-    background-position: center center;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+section .title {
+	text-align: center;
+	margin-bottom: 40px;
 }
-.card__feedback{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    padding: 30px 0 30px 50px;
-    border-radius: 5px;
-    height: 280px;
-    position: relative;
-
+.ration .content {
+	display: flex;
+	gap: 24px;
 }
-.feedback-title{
-    width: 60%;
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
 }
-.feedback-img{
-    position: absolute;
-    right: 0;
-    top: 0;
+.tab-item {
+	padding: 8px;
+	border-radius: 20px;
+	min-width: 100px;
+	text-align: center;
+	font-weight: 500;
 }
-.feedback-img img{
-    width: 310px;
-    height: 280px;
-    border-radius: 5px;
+.tab-item.active {
+	background: var(--btn-color);
+	color: #fff;
 }
-.card__news{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    gap: 40px;
-}
-.news-img img{
-    height: 200px;
+.card-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
+.feedback {
+	background: url('http://demo.tutsflow.com/foodera/images/parallax/1.jpg') no-repeat center;
+	background-size: cover;
+	background-position: center center;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card__feedback {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 30px 0 30px 50px;
+	border-radius: 5px;
+	height: 280px;
+	position: relative;
+}
+.feedback-title {
+	width: 60%;
+}
+.feedback-img {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.feedback-img img {
+	width: 310px;
+	height: 280px;
+	border-radius: 5px;
+}
+.card__news {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	gap: 40px;
+}
+.news-img img {
+	height: 200px;
+}
 
-.slick-slider{
-    width: 80%;
-    margin: auto;
+.slick-slider {
+	width: 80%;
+	margin: auto;
 }
-.slick-prev{
-    top: unset;
-    transform: unset;
-    bottom: 40px;
-    left: 50px;
-    z-index: 10;
+.slick-prev {
+	top: unset;
+	transform: unset;
+	bottom: 40px;
+	left: 50px;
+	z-index: 10;
 }
-.slick-next{
-    top: unset;
-    transform: unset;
-    bottom: 40px;
-    left: 80px;
-    z-index: 10;
+.slick-next {
+	top: unset;
+	transform: unset;
+	bottom: 40px;
+	left: 80px;
+	z-index: 10;
 }
-.slick-next::before,.slick-prev::before{
-    font-size: 28px;
-    color: var(--btn-color);
+.slick-next::before,
+.slick-prev::before {
+	font-size: 28px;
+	color: var(--btn-color);
 }
 
+.bg-mess {
+	background: url('https://themewagon.com/wp-content/uploads/2021/09/tw.webp') no-repeat center;
+	background-size: contain;
+}
 
-footer{
-    background: url('http://demo.tutsflow.com/foodera/images/parallax/1.jpg') no-repeat center;
-    background-size: cover;
-    padding-top: 80px;
+.cart {
+	position: relative;
+}
+.cart__total {
+	position: absolute;
+	top: -6px;
+	right: -16px;
+	width: 20px;
+	height: 16px;
+	border-radius: 40%;
+	background-color: #fff;
+	line-height: 14px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	color: var(--btn-color);
+	border: 1px solid;
+}
+
+.cart__wrapper {
+	display: none;
+	position: absolute;
+	right: 0;
+	width: 360px;
+	min-height: 250px;
+	max-height: 400px;
+	background-color: #f6f5f5;
+	border-radius: 5px;
+	z-index: 1;
+}
+.cart__wrapper.isNull {
+	background: url('https://ichibajp.com/image/img-cart-empty.png') no-repeat center;
+	background-color: #f6f5f5;
+}
+.cart__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cart__item-info {
+	flex: 1;
+	margin-left: 10px;
+}
+.cart:hover .cart__wrapper {
+	display: block;
+}
+
+.flash-sale {
+	background-color: var(--btn-color);
+	padding: 40px 0;
+}
+.flash-sale .count {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.weather {
+	position: relative;
+	animation: round 4s infinite linear alternate-reverse;
+}
+footer {
+	background: url('http://demo.tutsflow.com/foodera/images/parallax/1.jpg') no-repeat center;
+	background-size: cover;
+	padding-top: 80px;
+}
+
+@keyframes round {
+	from {
+		transform: translateX(0%);
+	}
+	to {
+		transform: translateX(100%);
+	}
 }

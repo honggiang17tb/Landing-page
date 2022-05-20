@@ -19,6 +19,9 @@
         text-align: center;
         flex-direction: column;
     }
+    .ration .content{
+        justify-content: center;
+    }
 
     .content .card{
         width: 100% !important;
